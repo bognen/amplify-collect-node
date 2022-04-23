@@ -1,0 +1,16 @@
+{
+  "lambdaLayers": [
+    {
+      "type": "ExternalLayer",
+      "arn": "arn:aws:lambda:us-west-2:780308835025:layer:aws-axios-layer:1"
+    }
+  ],
+  "permissions": {
+    "storage": {
+      "s3questionpics": [
+        "read",
+        "update"
+      ]
+    }
+  }
+}

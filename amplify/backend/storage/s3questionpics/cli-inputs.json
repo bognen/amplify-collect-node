@@ -1,0 +1,17 @@
+{
+  "resourceName": "s3questionpics",
+  "policyUUID": "3f31fe7b",
+  "bucketName": "aplifycollects3questionpics",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "groupAccess": {}
+}

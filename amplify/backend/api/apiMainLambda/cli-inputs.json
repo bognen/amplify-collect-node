@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "paths": {
+    "/collect-questions": {
+      "name": "/collect-questions",
+      "lambdaFunction": "lambdaCollectQuestions",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/scan-for-pics": {
+      "name": "/scan-for-pics",
+      "lambdaFunction": "lambdaScanForPics",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/save-pictures": {
+      "name": "/save-pictures",
+      "lambdaFunction": "amplifyMainLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
